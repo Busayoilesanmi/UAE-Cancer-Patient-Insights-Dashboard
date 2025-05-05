@@ -28,64 +28,120 @@ This report presents an analytical overview of cancer patient data from the Unit
 ### Objective of the Project
 To analyze cancer patient trends across various parameters including gender, cancer type, treatment outcomes, comorbidities, and Emirates-based distribution in the UAE. The goal is to derive insights that can support data-driven healthcare decisions.
 
-Problem Being Addressed
-Cancer remains a leading cause of mortality in the UAE. A structured view of patient demographics, treatment responses, and geographic distribution is needed to improve healthcare targeting and early interventions.
+### Problem Being Addressed
+Cancer remains a leading cause of mortality in the UAE. A structured view of patient demographics, treatment responses, and geographic distribution is needed to improve healthcare targeting and early interventions. This analysis seeks to know:
 
-Key Datasets and Methodologies
+- What is the most common cancer type?
+  
+- What is the average age of patients by cancer type?
+  
+- Which emirate has the highest number of cases?
+  
+- What is the treatment duration (Diagnosis Treatment Start) by cancer type?
+  
+- What is the age group distribution of patients?
+  
+- What comorbidities are most common among cancer patients?
+  
+- What is the outcome by treatment type?
+  
+- How many deaths occurred per hospital?
+  
+- What’s the ethnicity by cancer type?
+  
+- What is the gender distribution across cancer types?
 
-Dataset sourced from public repositories (e.g., Kaggle).
+### Key Datasets and Methodologies
+
+Dataset sourced from primary source ( Kaggle.com).
 
 Processed using Microsoft Excel (Pivot Tables, Charts, Conditional Formatting, Filters).
 
 Focused on visual storytelling using dashboards for clarity.
 
-3. Story of Data
-Data Source: Kaggle (open healthcare dataset).
-Collection Process: Scraped and consolidated from various cancer registries and anonymized health reports.
-Data Structure: Rows = patient records; Columns = attributes like gender, age, cancer type, treatment, stage, Emirate, etc.
-Key Features:
+## Story of Data
 
-Cancer Type
+### Data Source
 
-Gender
+Kaggle (open healthcare dataset).
 
-Stage at Diagnosis
+### Collection Process
 
-Treatment Type & Outcome
+Scraped and consolidated from various cancer registries and anonymized health reports of the UAE
 
-Age
+### Data Structure
 
-Emirate Location
+Rows = patient records; Columns = attributes like gender, age, cancer type, treatment, stage, Emirate, etc.
 
-Comorbidities
+### Key Features & Significance
 
-Limitations:
+* Cancer Type
 
-Some underreporting for rare cancer types.
+* Gender
 
-"Other" gender category may have limited data.
+* Stage at Diagnosis
 
-Time-based changes in data collection practices.
+* Treatment Type & Outcome
 
-4. Data Splitting and Preprocessing
-Data Cleaning: Removed duplicates, fixed missing values, standardized text formatting.
-Handling Missing Values: Used Excel filters to isolate missing fields; defaulted to "Unknown" or interpolated where appropriate.
-Transformations:
+* Age
 
-Grouped cancer types (Top 5).
+* Emirate Location
 
-Converted diagnosis dates into treatment delay (days).
+* Comorbidities
 
-Categorized age groups and stages.
+### Limitations:
 
-Normalized treatment outcomes into 3 categories (Deceased, Recovered, Under Treatment).
-Data Splitting:
+* Some underreporting for rare cancer types.
+
+* "Other" gender category may have limited data.
+
+* Time-based changes in data collection practices.
+
+### Data Splitting and Preprocessing
+
+### Data Cleaning 
+
+* Removed duplicates
+
+* Fixed missing values 
+
+* Standardized text formatting.
+
+### Handling Missing Values
+
+Used Excel filters to isolate missing fields; defaulted to "Unknown" or interpolated where appropriate.
+
+### Transformations
+
+* Grouped cancer types (Top 5).
+
+* Converted diagnosis dates into treatment delay (days).
+
+* Categorized age groups and stages.
+
+* Normalized treatment outcomes into 3 categories (Deceased, Recovered, Under Treatment).
+  
+### Data Splitting:
 
 Dependent: Outcome
 
 Independent: Gender, Treatment Type, Cancer Type, Comorbidities, Stage
-Industry Context: Healthcare – specifically oncology.
-Stakeholders:
+
+### Industry Context
+The healthcare industry in the United Arab Emirates (UAE) is rapidly evolving, with a strong emphasis on data-driven decision-making to improve patient outcomes and public health policies. Cancer remains one of the leading causes of morbidity and mortality in the region, and understanding its distribution, progression, and treatment efficacy is critical. As the UAE government invests in advanced medical infrastructure and national health registries, there is an increasing demand for insightful analytics that can guide cancer control strategies.
+
+### Relevance of the Project to Analysis
+This analytical project provides a deep dive into cancer patient data across multiple dimensions, including type, gender, age, comorbidities, stage of diagnosis, treatment methods, and regional distribution by emirate. Through Excel-based visualization and analytical methods, the project transforms raw patient data into meaningful insights that can assist healthcare professionals, policymakers, and researchers in understanding cancer trends within the UAE. It addresses key questions such as:
+
+Which cancer types are most prevalent?
+
+What are the demographics of affected patients?
+
+How do treatment outcomes vary by stage and type?
+
+Which emirates report higher case numbers?
+
+### Stakeholders:
 
 Ministry of Health
 
@@ -94,71 +150,102 @@ UAE Oncologists and Cancer Clinics
 Health Policy Makers
 
 Public Health Researchers
-Value to Industry: Provides evidence-based insights for policy, treatment strategy refinement, resource allocation, and future research.
 
-5. Pre-Analysis
-Key Trends Identified:
+### Value to the Industry:
+This analysis delivers significant value to the UAE healthcare industry in several ways:
 
-Leukemia is the most common cancer type.
+* Targeted Intervention: By identifying high-risk groups (e.g., gender, age, region), healthcare providers can tailor early detection and screening programs.
 
-Females slightly more affected than males.
+* Resource Allocation: Emirates with higher case loads can be prioritized for medical resources, personnel, and awareness campaigns.
 
-Hypertension is the most prevalent comorbidity.
+* Treatment Optimization: Understanding which treatments yield better outcomes allows for evidence-based adjustments in clinical practice.
 
-Ajman has the highest number of reported cases.
-Potential Correlations:
+* Policy Development: Data-driven insights enable government bodies to formulate more effective cancer control policies and allocate funding based on actual needs.
 
-Higher stage = lower recovery rate.
+* Public Health Awareness: The dashboard simplifies complex health data, making it accessible for public education and community outreach.
 
-Immunotherapy appears to yield the best recovery ratio.
-Initial Insights:
+* It Provides evidence-based insights for policy, treatment strategy refinement, resource allocation, and future research.
 
-There may be access or screening disparities between Emirates.
+## Pre-Analysis
 
-Early-stage detection improves recovery.
+### Key Trends Identified:
 
-6. In-Analysis
-Unconfirmed Insights:
+* Leukemia is the most common cancer type.
 
-Younger patients might respond better to certain treatment types.
+* Females slightly more affected than males.
 
-Possible gender differences in cancer type prevalence.
-Recommendations (Preliminary):
+* Hypertension is the most prevalent comorbidity.
 
-Increase screening and awareness in Ajman.
+* Ajman has the highest number of reported cases.
+  
+### Potential Correlations:
 
-Expand access to immunotherapy where feasible.
-Excel Techniques Used:
+* Higher stage = lower recovery rate.
 
-Pivot Tables for aggregating by type/gender/region
+* Immunotherapy appears to yield the best recovery ratio.
+  
+## Initial Insights:
 
-Data Bars & Conditional Formatting
+* There may be access or screening disparities between Emirates.
 
-Charts (bar, line, stacked columns)
+* Early-stage detection improves recovery.
 
-Slicers for dynamic filtering
+## In-Analysis
 
-7. Post-Analysis and Insights
-Key Findings:
+### Unconfirmed Insights:
 
-Leukemia most common cancer.
+* Younger patients might respond better to certain treatment types.
 
-Females are most affected.
+* Possible gender differences in cancer type prevalence.
+  
+### Recommendations
 
-Immunotherapy showed the highest recovery.
+* Increase screening and awareness in Ajman.
 
-Ajman reports the highest case numbers.
+* Expand access to immunotherapy where feasible.
+  
+### Excel Techniques Used:
 
-Hypertension most frequent comorbidity.
-Comparison with Expectations:
+* Pivot Tables for aggregating by type/gender/region
 
-Ajman’s lead in cases was unexpected; further investigation needed.
+* Data Bars & Conditional Formatting
 
-Recovery rate differences by treatment type highlight the need for more personalized oncology approaches.
+* Charts (bar, line, stacked columns)
 
-8. Data Visualizations & Charts
+* Slicers for dynamic filtering
+
+## Post-Analysis and Insights
+
+### Key Findings:
+
+* Leukemia most common cancer.
+
+* Females are most affected.
+
+* Immunotherapy showed the highest recovery.
+
+* Ajman reports the highest case numbers.
+
+* Hypertension most frequent comorbidity.
+  
+### Comparison with Expectations:
+
+* Ajman’s lead in cases was unexpected; further investigation needed.
+
+* Recovery rate differences by treatment type highlight the need for more personalized oncology approaches.
+
+## Data Visualizations & Charts
+
+![Dashboard7](https://github.com/user-attachments/assets/286ec98d-2c65-4fe6-933d-0f7c29119e0c)
+
+### Link to the Excel documents and Dashboard
+
+https://docs.google.com/spreadsheets/d/1WbTab1zCmW2PkS6LdqZcMFTQ5vUG1JrM/edit?usp=drive_link&ouid=104478848167416604596&rtpof=true&sd=true
+
 (a) Line Chart – Average Time from Diagnosis to Treatment
+
 Shows treatment access lag per cancer type. Pancreatic cancer has the longest delay (~43,810 days).
+
 (b) Stacked Column Chart – Cancer Stage by Outcome
 Stage IV shows highest mortality. Stage I shows better recovery.
 (c) Bar Chart – Top 5 Cancer Types
