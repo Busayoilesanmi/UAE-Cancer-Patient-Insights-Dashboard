@@ -1,11 +1,31 @@
 # UAE Cancer Patient Insights Dashboard
 
-  Technical Report: UAE Cancer Patient Insights Dashboard
-1. Outline
+[Introduction](#Introduction)
+
+[Objective](#Objective)
+
+[Story of Data](#StoryofData)
+
+[Data Splitting and Preprocessing](#DataSplittingandPreprocessing)
+
+[Pre-Analysis](#Pre-Analysi)
+
+[In-Analysis](#In-Analysis)
+
+[Post-Analysis and Insights](#Post-AnalysisandInsights)
+
+[Data Visualizations & Charts](#DataVisualizations&Charts)
+
+[Recommendations and Observations](#RecommendationsandObservations)
+
+[Conclusion](#Conclusion)
+
+[References & Appendices](#References&Appendices)
+
+## Introduction
 This report presents an analytical overview of cancer patient data from the United Arab Emirates. It provides insights on treatment timelines, cancer types, gender and age distributions, comorbidities, outcomes by treatment, and geographic patterns. The dashboard was created using Microsoft Excel to assist healthcare decision-makers, policymakers, and researchers in identifying high-risk groups, optimizing treatment strategies, and planning healthcare resources efficiently.
 
-2. Introduction
-Objective of the Project
+### Objective of the Project
 To analyze cancer patient trends across various parameters including gender, cancer type, treatment outcomes, comorbidities, and Emirates-based distribution in the UAE. The goal is to derive insights that can support data-driven healthcare decisions.
 
 Problem Being Addressed
