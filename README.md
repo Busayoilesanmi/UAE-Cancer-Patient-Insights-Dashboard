@@ -242,78 +242,100 @@ This analysis delivers significant value to the UAE healthcare industry in sever
 
 https://docs.google.com/spreadsheets/d/1WbTab1zCmW2PkS6LdqZcMFTQ5vUG1JrM/edit?usp=drive_link&ouid=104478848167416604596&rtpof=true&sd=true
 
+#### Dashboard Explanations:
+
 (a) Line Chart – Average Time from Diagnosis to Treatment
 
 Shows treatment access lag per cancer type. Pancreatic cancer has the longest delay (~43,810 days).
 
 (b) Stacked Column Chart – Cancer Stage by Outcome
+
 Stage IV shows highest mortality. Stage I shows better recovery.
+
 (c) Bar Chart – Top 5 Cancer Types
+
 Leukemia leads with 1,314 patients.
+
 (d) Bar Chart – Gender Distribution
+
 Females (4,985) slightly higher than males (4,827); other genders minimally represented.
+
 (e) Column Chart – Average Age by Cancer Type
+
 Colorectal has the oldest average (54.3), Leukemia the youngest (52.4).
+
 (f) Bar Chart – Cancer Cases by Emirate
+
 Ajman (1,497) highest, Ras Al Khaimah (1,340) lowest among major Emirates.
+
 (g) Bar Chart – Comorbidities
+
 Hypertension most common (2,945), followed by diabetes and cardiovascular.
+
 (h) Stacked Column Chart – Outcomes by Treatment Type
+
 Immunotherapy yielded the most recoveries (1,256).
+
 KPI Cards (Right Pane):
+
 Summarize total cases, gender impact, most affected Emirate, top cancer, common comorbidity, and treatment effectiveness.
 
-9. Recommendations and Observations
-Actionable Insights:
+## Recommendations and Observations
 
-Enhance awareness in Ajman and regions with high Stage IV diagnoses.
+### Actionable Insights:
 
-Expand use of immunotherapy and monitor its long-term effectiveness.
+* Enhance awareness in Ajman and regions with high Stage IV diagnoses.
 
-Focus interventions on comorbid patients, especially with hypertension.
+* Expand use of immunotherapy and monitor its long-term effectiveness.
 
-Optimizations:
+* Focus interventions on comorbid patients, especially with hypertension.
 
-Introduce regional cancer screening programs.
+### Optimizations:
 
-Improve treatment lag for pancreatic and lung cancers.
+* Introduce regional cancer screening programs.
 
-Promote data collection for non-binary patients and rare cancers.
+* Improve treatment lag for pancreatic and lung cancers.
 
-Unexpected Outcomes:
+* Promote data collection for non-binary patients and rare cancers.
 
-Nearly equal gender split challenges assumptions.
+### Unexpected Outcomes:
 
-Some Emirates with better healthcare infrastructure still show high advanced-stage cases.
+* Nearly equal gender split challenges assumptions.
 
-10. Conclusion
+* Some Emirates with better healthcare infrastructure still show high advanced-stage cases.
+
+## Conclusion
 This analysis provides valuable insights into UAE cancer trends by patient demographics, geography, treatment, and outcomes. The findings support more targeted public health strategies and improved oncology practices.
-Limitations:
 
-Small sample sizes in less common cancer types.
+### Limitations:
 
-Possible underreporting in comorbidity data.
-Future Research:
+- Small sample sizes in less common cancer types.
+
+- Possible underreporting in comorbidity data.
+  
+### Future Research:
 
 Track survival over time.
 
 Include socioeconomic and lifestyle variables.
 
-11. References & Appendices
-References:
+## References & Appendices
 
-Dataset from Kaggle (UAE Cancer Patient Dataset)
+### References:
 
-WHO cancer factsheets
+Dataset from Kaggle: ([UAE Cancer Patient Dataset](https://www.kaggle.com/datasets/ak0212/uae-cancer-patient-dataset))
 
-UAE Ministry of Health statistics
+Microsoft Excel Documentation: https://docs.google.com/spreadsheets/d/1WbTab1zCmW2PkS6LdqZcMFTQ5vUG1JrM/edit?usp=drive_link&ouid=104478848167416604596&rtpof=true&sd=true
 
-Appendices:
+Screenshot: https://drive.google.com/file/d/1c-LhxqlB_YU8Tliq-kEkEIC6FtPTFYX3/view?usp=drive_link
 
-Excel formulas used (VLOOKUP, COUNTIFS, SUMIFS)
+### Appendices:
 
-Raw data sample screenshots
+* Appendix A: Full Pivot Table Output
 
-Additional charts not shown on the dashboard
+* Appendix B: Excel Formulas Used
 
-Would you like this exported as a Word or PDF report format fo
+* Appendix C: Raw Dataset (sanitized)
+
+* Appendix D: Screenshot of Final Dashboard
+
